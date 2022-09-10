@@ -1,0 +1,92 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.london {
+    background-color: white;
+    color: #2C3333;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #D9F8C4;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.london:hover {
+    border: 1px solid #D9F8C4;
+    background-color: #D9F8C4;
+    box-shadow:  13px 24px 26px -7px rgba(0,0,0,0.75);
+}
+
+.paris{
+    background-color: white;
+    color: #2C3333;
+    width: 300px;
+    height: 400px;
+    border: 1px solid  #F9F9C5;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.paris:hover {
+    border: 1px solid #F9F9C5;
+    background-color: #F9F9C5;
+    box-shadow:  13px 24px 26px -7px rgba(0,0,0,0.75);
+    
+}
+.newyork{
+    background-color: white;
+    color: #2C3333;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #FED1EF;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.newyork:hover {
+    border: 1px solid #FED1EF;
+    background-color:#FED1EF;
+    box-shadow:  13px 24px 26px -7px rgba(0,0,0,0.75);
+}    
+.image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+h2 {
+    margin-left: 12px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: black;
+    color: whitesmoke;
+    padding: 2px 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 80px;
+    margin-top: 20px;
+    border:none ;
+}
+.card {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
